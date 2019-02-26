@@ -1,0 +1,7 @@
+<h1>Result page!</h1>
+<% data["errors"].forEach(function(correction){ %>
+<li> <%= correction["bad"] %> - <%= correction["better"] %></li>
+<% }) %>
+
+
+<a href = "/"> Try Again! </a>
